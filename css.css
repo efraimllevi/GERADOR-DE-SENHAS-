@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #333;
+  }
+  
+  .senha-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #senha {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: border 0.3s;
+  }
+  
+  #senha:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 16px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
